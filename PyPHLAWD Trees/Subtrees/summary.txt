@@ -1,0 +1,116 @@
+
+Accipitriformes
+Number of seqs: 317
+Number of genes: 18
+
+Anseriformes
+Number of seqs: 153
+Number of genes: 13
+
+Apodiformes
+Number of seqs: 423
+Number of genes: 15
+
+Bucerotiformes
+Number of seqs: 53
+Number of genes: 1
+
+Caprimulgiformes
+Number of seqs: 94
+Number of genes: 6
+
+Charadriiformes
+Number of seqs: 364
+Number of genes: 24
+
+Ciconiiformes
+Number of seqs: 33
+Number of genes: 9
+
+Coliiformes
+Number of seqs: 4
+Number of genes: 2
+
+Columbiformes
+Number of seqs: 254
+Number of genes: 11
+
+Coraciiformes
+Number of seqs: 210
+Number of genes: 13
+
+Cuculiformes
+Number of seqs: 82
+Number of genes: 5
+
+Falconiformes
+Number of seqs: 106
+Number of genes: 11
+
+Galbuliformes
+Number of seqs: 33
+Number of genes: 6
+
+Galliformes
+Number of seqs: 347
+Number of genes: 45
+
+Gaviiformes
+Number of seqs: 5
+Number of genes: 4
+
+Gruiformes
+Number of seqs: 199
+Number of genes: 16
+
+Musophagiformes
+Number of seqs: 46
+Number of genes: 5
+
+Parulidae ## REDUNDANT
+Number of seqs: 127
+Number of genes: 14
+
+Pelecaniformes
+Number of seqs: 149
+Number of genes: 29
+
+Phoenicopteriformes
+Number of seqs: 6
+Number of genes: 12
+
+Picidae ## REDUNDANT
+Number of seqs: 266
+Number of genes: 17
+
+Piciformes
+Number of seqs: 436
+Number of genes: 19
+
+Podicipediformes
+Number of seqs: 14
+Number of genes: 4
+
+Procellariiformes
+Number of seqs: 171
+Number of genes: 4
+
+Psittaciformes
+Number of seqs: 429
+Number of genes: 23
+
+Sphenisciformes
+Number of seqs: 18
+Number of genes: 9
+
+Strigiformes
+Number of seqs: 195
+Number of genes: 12
+
+Trogoniformes
+Number of seqs: 40
+Number of genes: 8
+
+Upupiformes
+Number of seqs: 5
+Number of genes: 1

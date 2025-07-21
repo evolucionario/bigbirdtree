@@ -1,0 +1,23 @@
+Trees were inferred with iqtree v2.07 (Compute Canada, cedar)
+
+NOTES:
+Multisequence alignments generated from PyPHLAWD Markov clustering of all-by-all blast analyses
+These are 'dirty' inferences (essentially inference using _all_ possible data):
+  - all genes that pass the minimum requirements of length and taxon coverage are used
+    - these include some genes that are gappy (poorly aligned) or restricted to too few taxa
+  - all taxa from NCBI are used
+    - these include hybrids, sp. taxa, etc.
+All trees inferred using a partitioned model, where each partition is modelled with GTR+G
+No topological constraints were employed
+All tree are unrooted
+These trees will be updated as alignments/models are finalized
+
+
+TODO:
+1. get rid of excessively gappy partitions
+2. prune out bad taxa
+3. infer partition-specific substitution models (possibly find best partitioning strategy)
+4. compare likelihoods of unconstrained trees are trees constrained to (IOC) taxonomy
+5. programmatically root trees given relationships
+  - this is necessary for subsequent dating
+

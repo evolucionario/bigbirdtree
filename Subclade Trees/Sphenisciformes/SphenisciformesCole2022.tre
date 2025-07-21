@@ -1,0 +1,45 @@
+#NEXUS
+
+[Cole et al 2022 Genomic insights into the secondary aquatic transition of penguins. Nature Com. https://doi.org/10.1038/s41467-022-31508-9]
+
+
+BEGIN TREES;
+	Title 'Set1_Examl_finalone_substitutionPerSite';
+	ID 017882160f6215;
+	LINK Taxa = Taxa_dataset1;
+	TRANSLATE
+[0] 		1 Eudyptes_sclateri,
+[1] 		2 Eudyptes_pachyrhynchus,
+[2] 		3 Eudyptes_robustus,
+[3] 		4 Eudyptes_warhami,
+[4] 		5 Eudyptes_moseleyi,
+[5] 		6 Eudyptes_chrysocome,
+[6] 		7 Eudyptes_filholi,
+[7] 		8 Eudyptes_chrysolophus_schlegeli,
+[8] 		9 Eudyptes_chrysolophus_chrysolophus,
+[9] 		10 Megadyptes_antipodes_richdalei,
+[10] 		11 Megadyptes_antipodes_antipodes,
+[11] 		12 Megadyptes_antipodes_waitaha,
+[12] 		13 Spheniscus_humboldti,
+[13] 		14 Spheniscus_mendiculus,
+[14] 		15 Spheniscus_demersus,
+[15] 		16 Spheniscus_magellanicus,
+[16] 		17 Eudyptula_novaehollandiae,
+[17] 		18 Eudyptula_minor_Banks_Peninsula,
+[18] 		19 Eudyptula_minor,
+[19] 		20 Pygoscelis_adeliae,
+[20] 		21 Pygoscelis_antarctica,
+[21] 		22 Pygoscelis_papua_Kerguelen,
+[22] 		23 Pygoscelis_papua_Falklands_Malvinas,
+[23] 		24 Pygoscelis_papua_West_Antarctic_Peninsula,
+[24] 		25 Pygoscelis_papua_South_Georgia,
+[25] 		26 Aptenodytes_forsteri,
+[26] 		27 Aptenodytes_patagonicus,
+[27] 		28 Thalassarche_chlororhynchos,
+[28] 		29 Hydrobates_tethys,
+[29] 		30 Oceanites_oceanicus,
+[30] 		31 Taeniopygia_guttata,
+[31] 		32 Gallus_gallus;
+	TREE Imported_tree_1 = (31:0.16190342027548377,(((30:0.039013937840485194,29:0.033192167809542365):0.002007160795832328[%bootstrapFrequency = 100 ],28:0.02482295960981603):0.0045910231139114745[%bootstrapFrequency = 100 ],(((20:0.005858859090074936,(21:0.004320764380359614,(22:0.000664427380394899,((24:0.00045860037597661175,25:0.00043273715328074925):0.00018363994252958976[%bootstrapFrequency = 100 ],23:0.0005300950313357565):0.0002649378992211165[%bootstrapFrequency = 100 ]):0.0038974147414073687[%bootstrapFrequency = 100 ]):0.0019267068595115225[%bootstrapFrequency = 100 ]):0.007753610548690279[%bootstrapFrequency = 100 ],(((10:0.002222122188563531,(12:0.011528230314919757,11:0.00005779046536020421):0.0000440785626178769[%bootstrapFrequency = 100 ]):0.003926569252774297[%bootstrapFrequency = 100 ],((8:0.0014459458238933983,9:0.0012061121664114491):0.0013907951234383774[%bootstrapFrequency = 100 ],((((2:0.0011124558438758763,3:0.0009936282902282148):0.0011602477147854666[%bootstrapFrequency = 100 ],1:0.0017238244714977507):0.0002450438261024435[%bootstrapFrequency = 100 ],4:0.007327197255229094):0.00031260938183907684[%bootstrapFrequency = 100 ],((6:0.0012717374411714214,7:0.0012425288493765297):0.000517687759936372[%bootstrapFrequency = 100 ],5:0.0016596163595159396):0.0007345515888353638[%bootstrapFrequency = 100 ]):0.0004079292616166726[%bootstrapFrequency = 100 ]):0.001153509302895994[%bootstrapFrequency = 100 ]):0.0043229619818834055[%bootstrapFrequency = 100 ],(((16:0.0013215110918261535,15:0.00117830296340164):0.00040554399662765986[%bootstrapFrequency = 100 ],(13:0.0005846951453866583,14:0.00042849932795162413):0.0010236569889490632[%bootstrapFrequency = 100 ]):0.005671288604855959[%bootstrapFrequency = 100 ],(17:0.0016649874756632039,(19:0.0008277686557488933,18:0.0010121109592222612):0.0010027960169253177[%bootstrapFrequency = 100 ]):0.007117379901024499[%bootstrapFrequency = 100 ]):0.0011045485204004394[%bootstrapFrequency = 100 ]):0.005779389538324239[%bootstrapFrequency = 100 ]):0.0011540621263364638[%bootstrapFrequency = 100 ],(26:0.002690390263842859,27:0.0025894313684253815):0.00854255852852772[%bootstrapFrequency = 100 ]):0.022867573746566696[%bootstrapFrequency = 100 ]):0.01008770502907899[%bootstrapFrequency = 100 ],32:0.22527822152617621)[% ] [% ] [%  setBetweenDouble = bootstrapFrequency ];
+
+END;

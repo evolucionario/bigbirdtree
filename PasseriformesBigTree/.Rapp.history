@@ -1,0 +1,141 @@
+library(ape)#
+library(phangorn)#
+setwd('~/Library/CloudStorage/GoogleDrive-sclaramunt.uy@gmail.com/My Drive/BigBirdTree Calibration/BigBirdTree Assembly/PasseriformesBigTree/')
+# getMRCAage returns the age of the MRCA of a pair of tips#
+#
+getMRCAage <- function(phy, tip) {#
+#
+	# Obtain branching times#
+	BTimes <- branching.times(phy)#
+	# identify the MRCA node number#
+	MRCA <- getMRCA(phy, tip)#
+#
+	# substract Ntip to obtain the index of the node in the branching times result#
+#
+	MRCAnode <- MRCA - Ntip(phy)#
+	return(BTimes[MRCAnode])	#
+}
+### Load RAG Backnone Tree ####
+BackTre <- read.tree("ChronogramNeornithes.tre")#
+#
+plot(BackTre, edge.width=0.5, cex=0.1)#
+#
+axisPhylo(cex.axis=0.7)#
+#
+# Extract Passeriformes #
+#
+PasBackTre <- extract.clade(BackTre, node=getMRCA(BackTre, tip=c("Acanthisitta_chloris", "Passer_montanus")))
+PhlawdTree <- read.tree("RAxML_bestTree.Aves_bait_13.tre") # ROM
+Tryanii <- read.tree("~/Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tryanii <- read.tree("/Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tryanii <- read.tree("Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tryani <- read.tree("Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tryanni <- read.tree("Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tyranni <- extract.clade(Tyranni, node=getMRCA(PhlawdTree, tip=c("Euryla_java_L79621","Tyranei_vircen_L25483", "Ptilonorhynchus_violaceus")))
+Tryanni <- read.tree("Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tyranni <- extract.clade(Tyranni, node=getMRCA(PhlawdTree, tip=c("Euryla_java_L79621","Tyranei_vircen_L25483", "Ptilonorhynchus_violaceus")))
+Tyranni <- read.tree("Subclades/T400F_rooted_trimmed_Psitta_V5.tre")
+Tyranni <- extract.clade(Tyranni, node=getMRCA(Tyranni, tip=c("Euryla_java_L79621","Tyranei_vircen_L25483")))
+Tyranni <- extract.clade(Tyranni, node=getMRCA(Tyranni, tip=c("Euryla_java_L79621","Tyraneu_vircen_L25483")))
+Names <- read.csv("Subclades/Species_name_map_uids.csv")
+head(Names)
+Tyranni$tip.name
+plot(Tyranni, show.tip.lable=FALSE)
+plot(Tyranni, show.tip.lable=FALSE)
+plot(Tyranni, show.tip.label=FALSE)
+Tyranni$tip.label
+head(Names)
+Names[which(Names$tipnamecodes ==Tyranni$tip.label,"aos.howardmoore.species"]
+which(Names$tipnamecodes ==Tyranni$tip.label)
+Names$tipnamecodes
+Tyranni$tip.label
+Names$tipnamecodes ==Tyranni$tip.label
+rownames(Names) <- Names$tipnamecodes
+Tyranni <- read.tree("Subclades/T400F_AOS_Clements_sppnames.tre")
+Tyranni <- extract.clade(Tyranni, node=getMRCA(Tyranni, tip=c("Eurylaimus_javanicus","Tyrannus_tyrannus")))
+plot(Tyranni, show.tip.label=FALSE)
+CladeAge <- getMRCAage(PasBackTre, tip=c("Sapayoa_aenigma", "Tyrannus_tyrannus"))
+CladeAge
+TreeAge <- getMRCAage(Tyranni, tip=c("Eurylaimus_javanicus","Tyrannus_tyrannus"))
+TreeAge
+CladeAge/TreeAge
+Tyranni$edge.length <- Tyranni$edge.length*CladeAge/TreeAge
+getMRCAage(Tyranni, tip=c("Eurylaimus_javanicus","Tyrannus_tyrannus"))
+PasBackTre$tip.label
+cat(PasBackTre$tip.label)
+print(PasBackTre$tip.label)
+Tyranni <- drop.tip(PasBackTre, tip=c(#
+"Pitta_sordida",#
+"Smithornis_rufolateralis",#
+"Psarisomus_dalhousiae",#
+"Philepitta_castanea",#
+"Pipra_coronata",#
+"Cotinga_cayana",#
+"Tityra_semifasciata",#
+"Onychorhynchus_coronatus",#
+"Oxyruncus_cristatus",#
+"Rhynchocyclus_brevirostris",#
+"Tachuris_rubrigastra",#
+"Piprites_chloris",#
+"Platyrinchus_coronatus",#
+"Conopophaga_ardesiaca",#
+"Melanopareia_torquata",#
+"Terenura_sharpei",#
+"Myrmornis_torquata",#
+"Thamnophilus_nigrocinereus",#
+"Scytalopus_magellanicus",#
+"Grallaria_ruficapilla",#
+"Formicarius_colma",#
+"Sclerurus_mexicanus",#
+"Dendrocolaptes_certhia",#
+"Furnarius_rufus"), trim.internal=TRUE)
+Tyranni <- read.tree("Subclades/T400F_AOS_Clements_sppnames.tre")#
+#
+# Delete outgroup#
+Tyranni <- extract.clade(Tyranni, node=getMRCA(Tyranni, tip=c("Eurylaimus_javanicus","Tyrannus_tyrannus")))#
+#
+plot(Tyranni, show.tip.label=FALSE)#
+#
+### Determine scaling factor ####
+#
+#Obtain backbone age#
+CladeAge <- getMRCAage(PasBackTre, tip=c("Sapayoa_aenigma", "Tyrannus_tyrannus"))#
+#
+#Obtain tree age#
+TreeAge <- getMRCAage(Tyranni, tip=c("Eurylaimus_javanicus","Tyrannus_tyrannus"))#
+#
+# Convert branch lengths#
+Tyranni$edge.length <- Tyranni$edge.length*CladeAge/TreeAge#
+#
+# Trim species in backbone#
+#
+PasBackTre <- drop.tip(PasBackTre, tip=c(#
+"Pitta_sordida",#
+"Smithornis_rufolateralis",#
+"Psarisomus_dalhousiae",#
+"Philepitta_castanea",#
+"Pipra_coronata",#
+"Cotinga_cayana",#
+"Tityra_semifasciata",#
+"Onychorhynchus_coronatus",#
+"Oxyruncus_cristatus",#
+"Rhynchocyclus_brevirostris",#
+"Tachuris_rubrigastra",#
+"Piprites_chloris",#
+"Platyrinchus_coronatus",#
+"Conopophaga_ardesiaca",#
+"Melanopareia_torquata",#
+"Terenura_sharpei",#
+"Myrmornis_torquata",#
+"Thamnophilus_nigrocinereus",#
+"Scytalopus_magellanicus",#
+"Grallaria_ruficapilla",#
+"Formicarius_colma",#
+"Sclerurus_mexicanus",#
+"Dendrocolaptes_certhia",#
+"Furnarius_rufus"), trim.internal=TRUE)#
+#
+PasBackTre <- drop.tip(PasBackTre, tip=c("Sapayoa_aenigma", "Tyrannus_tyrannus"),  trim.internal=FALSE)
+PasBackTre <- bind.tree(PasBackTre, Tyranni, where=Ntip(PasBackTre))
+plot(PasBackTre)
+plot(PasBackTre, show.tip.label=FALSE)
