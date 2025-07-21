@@ -1,2 +1,41 @@
-# bigbirdtree
-Big Bird Tree Project
+# Big Bird Tree Project
+
+Code for sssembling a time-scaled phylogeny of 9,072 bird species including recently extinct species.
+
+## Current Version: RAG genes backbone
+
+The current version uses a backbnone tree of all bird familie inferred from an alignment of Recombination Activation Genes (RAG) 1 and 2.
+
+Phylogenies of subclades were newly inferred from sequences deposited in GenBank using PyPHLAWD (Smith & Walker 2019) or obtained from previous studies as follow: Tinamidae,(Almeida et al., 2022) Galliformes,(Kimball et al., 2021) Charadriiformes,(Černý & Natale, 2022) Coraciiformes,(McCullough et al., 2019) Picidae,(Shakya et al., 2017) Psittaciformes,(B. T. Smith et al., 2023) Tyranni,(Harvey et al., 2020) Melliphagidae,(Marki et al., 2017) Corvides,(McCullough et al., 2022) Sylvioidea,(Cai et al., 2019) Alaudidae,(Alström et al., 2023) Pycnonotidae,(Shakya & Sheldon, 2017) Ploceidae,(De Silva et al., 2019) Estrildidae,(Olsson & Alström, 2020) and Emberizoidea.(Barker et al., 2015)
+
+Current versions of the tree:
+
+BBtree.tre  Raw tree resulting form the assembling.
+
+BBtree2.tre  Binary tree with no zero or near-zero branch lengths.
+
+BBtree3.tre Cleaned taxonomy for typos and outdated names with help from the Hosner et al. (2022).
+
+BBtreeC2022.tre Crude attemept at matching the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
+
+
+## References
+
+- Almeida, F. C., Porzecanski, A. L., Cracraft, J. L., & Bertelli, S. (2022). The evolution of tinamous (Palaeognathae: Tinamidae) in light of molecular and combined analyses. Zoological Journal of the Linnean Society, 195(1), 106–124. https://doi.org/10.1093/zoolinnean/zlab080
+- Alström, P., Mohammadi, Z., Enbody, E. D., Irestedt, M., Engelbrecht, D., Crochet, P.-A., Guillaumet, A., Rancilhac, L., Tieleman, B. I., Olsson, U., Donald, P. F., & Stervander, M. (2023). Systematics of the avian family Alaudidae using multilocus and genomic data. Avian Research, 14(2), 100095–100095. https://doi.org/10.1016/j.avrs.2023.100095
+- Barker, F. K., Burns, K. J., Klicka, J., Lanyon, S. M., & Lovette, I. J. (2015). New insights into New World biogeography: An integrated view from the phylogeny of blackbirds, cardinals, sparrows, tanagers, warblers, and allies. The Auk, 132(2), 333–348. https://doi.org/10.1642/AUK-14-110.1
+- Cai, T., Cibois, A., Alström, P., Moyle, R. G., Kennedy, J. D., Shao, S., Zhang, R., Irestedt, M., Ericson, P. G. P., Gelang, M., Qu, Y., Lei, F., & Fjeldså, J. (2019). Near-complete phylogeny and taxonomic revision of the world’s babblers (Aves: Passeriformes). Molecular Phylogenetics and Evolution, 130, 346–356. https://doi.org/10.1016/j.ympev.2018.10.010
+- Černý, D., & Natale, R. (2022). Comprehensive taxon sampling and vetted fossils help clarify the time tree of shorebirds (Aves, Charadriiformes). Molecular Phylogenetics and Evolution, 177, 107620. https://doi.org/10.1016/j.ympev.2022.107620
+- De Silva, T. N., Peterson, A. T., & Perktas, U. (2019). An extensive molecular phylogeny of weaverbirds (Aves: Ploceidae) unveils broad nonmonophyly of traditional genera and new relationships. The Auk, 136(3), ukz041. https://doi.org/10.1093/auk/ukz041
+- Harvey, M. G., Bravo, G. A., Claramunt, S., Cuervo, A. M., Derryberry, G. E., Battilana, J., Seeholzer, G. F., McKay, J. S., O’Meara, B. C., Faircloth, B. C., Edwards, S. V., Pérez-Emán, J., Moyle, R. G., Sheldon, F. H., Aleixo, A., Smith, B. T., Chesser, R. T., Silveira, L. F., Cracraft, J., … Derryberry, E. P. (2020). The evolution of a tropical biodiversity hotspot. Science, 370(6522), 1343–1348. https://doi.org/10.1126/science.aaz6970
+- Kimball, R. T., Hosner, P. A., & Braun, E. L. (2021). A phylogenomic supermatrix of Galliformes (Landfowl) reveals biased branch lengths. Molecular Phylogenetics and Evolution, 158, 107091. https://doi.org/10.1016/j.ympev.2021.107091
+- Hosner, P. A., Zhao, M., Kimball, R. T., Braun, E. L., & Burleigh, J. G. (2022). Updating splits, lumps, and shuffles: Reconciling GenBank names with standardized avian taxonomies. Ornithology, 139(4), ukac045. https://doi.org/10.1093/ornithology/ukac045
+- Marki, P. Z., Jønsson, K. A., Irestedt, M., Nguyen, J. M. T., Rahbek, C., & Fjeldså, J. (2017). Supermatrix phylogeny and biogeography of the Australasian Meliphagides radiation (Aves: Passeriformes). Molecular Phylogenetics and Evolution, 107, 516–529. https://doi.org/10.1016/j.ympev.2016.12.021
+- McCullough, J. M., Moyle, R. G., Smith, B. T., & Andersen, M. J. (2019). A Laurasian origin for a pantropical bird radiation is supported by genomic and fossil data (Aves: Coraciiformes). Proceedings of the Royal Society B: Biological Sciences, 286(1910), 20190122. https://doi.org/10.1098/rspb.2019.0122
+- McCullough, J. M., Oliveros, C. H., Benz, B. W., Zenil-Ferguson, R., Cracraft, J., Moyle, R. G., & Andersen, M. J. (2022). Wallacean and Melanesian islands promote higher rates of diversification within the global passerine radiation Corvides. Systematic Biology, 71(6), 1423–1439. https://doi.org/10.1093/sysbio/syac044
+- Olsson, U., & Alström, P. (2020). A comprehensive phylogeny and taxonomic evaluation of the waxbills (Aves: Estrildidae). Molecular Phylogenetics and Evolution, 146, 106757. https://doi.org/10.1016/j.ympev.2020.106757
+- Reddy, S., Kimball, R. T., Pandey, A., Hosner, P. A., Braun, M. J., Hackett, S. J., Han, K.-L., Harshman, J., Huddleston, C. J., Kingston, S., Marks, B. D., Miglia, K. J., Moore, W. S., Sheldon, F. H., Witt, C. C., Yuri, T., & Braun, E. L. (2017). Why do phylogenomic data dets yield conflicting trees? Data type influences the avian tree of life more than taxon sampling. Systematic Biology, 66(5), 857–879. https://doi.org/10.1093/sysbio/syx041
+- Shakya, S. B., Fuchs, J., Pons, J.-M., & Sheldon, F. H. (2017). Tapping the woodpecker tree for evolutionary insight. Molecular Phylogenetics and Evolution, 116, 182–191. https://doi.org/10.1016/j.ympev.2017.09.005
+- Shakya, S. B., & Sheldon, F. H. (2017). The phylogeny of the world’s bulbuls (Pycnonotidae) inferred using a supermatrix approach. Ibis, 159(3), 498–509. https://doi.org/10.1111/ibi.12464
+- Smith, B. T., Merwin, J., Provost, K. L., Thom, G., Brumfield, R. T., Ferreira, M., Mauck, W. M., III, Moyle, R. G., Wright, T. F., & Joseph, L. (2023). Phylogenomic analysis of the parrots of the world distinguishes artifactual from biological sources of gene tree discordance. Systematic Biology, 72(1), 228–241. https://doi.org/10.1093/sysbio/syac055
+- Smith, S. A., & Walker, J. F. (2019). PyPHLAWD: A python tool for phylogenetic dataset construction. Methods in Ecology and Evolution, 10(1), 104–108. https://doi.org/10.1111/2041-210X.13096
