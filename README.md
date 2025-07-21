@@ -10,13 +10,13 @@ Phylogenies of subclades were newly inferred from sequences deposited in GenBank
 
 Current versions of the tree:
 
-BBtree.tre  Raw tree resulting form the assembling.
+-BBtree.tre  Raw tree resulting form the assembling.
 
-BBtree2.tre  Binary tree with no zero or near-zero branch lengths.
+-BBtree2.tre  Binary tree with no zero or near-zero branch lengths.
 
-BBtree3.tre Cleaned taxonomy for typos and outdated names with help from the Hosner et al. (2022).
+-BBtree3.tre Cleaned taxonomy for typos and outdated names with help from the Hosner et al. (2022).
 
-BBtreeC2022.tre Crude attemept at matching the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
+-BBtreeC2022.tre Crude attemept at matching the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
 
 
 ## References
