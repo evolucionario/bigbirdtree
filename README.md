@@ -18,6 +18,15 @@ Current versions of the tree:
 
 -BBtreeC2022.tre Crude attemept at matching the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
 
+To download a tree from GitHub directly into R:
+
+```
+library(ape)
+
+BBtree2 <- read.tree("https://raw.githubusercontent.com/evolucionario/BigBirdTree/refs/heads/main/RAGBackbone/BBtree2.tre")
+```
+
+
 
 ## References
 
