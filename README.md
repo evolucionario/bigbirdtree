@@ -1,16 +1,16 @@
 # Big Bird Tree Project
 
-Code for sssembling a time-scaled phylogeny of 9,072 bird species including recently extinct species.
+Code for assembling a time-scaled phylogeny of 9,072 bird species including recently extinct species.
 
 ## Current Version: RAG genes backbone
 
-The current version uses a backbnone tree of all bird familie inferred from an alignment of Recombination Activation Genes (RAG) 1 and 2.
+The current version uses a backbnone tree of all bird families inferred from an alignment of Recombination Activation Genes (RAG) 1 and 2.
 
 Phylogenies of subclades were newly inferred from sequences deposited in GenBank using PyPHLAWD (Smith & Walker 2019) or obtained from previous studies as follow: Tinamidae,(Almeida et al., 2022) Galliformes,(Kimball et al., 2021) Charadriiformes,(Černý & Natale, 2022) Coraciiformes,(McCullough et al., 2019) Picidae,(Shakya et al., 2017) Psittaciformes,(B. T. Smith et al., 2023) Tyranni,(Harvey et al., 2020) Melliphagidae,(Marki et al., 2017) Corvides,(McCullough et al., 2022) Sylvioidea,(Cai et al., 2019) Alaudidae,(Alström et al., 2023) Pycnonotidae,(Shakya & Sheldon, 2017) Ploceidae,(De Silva et al., 2019) Estrildidae,(Olsson & Alström, 2020) and Emberizoidea.(Barker et al., 2015)
 
 Current versions of the tree:
 
--BBtree.tre  Raw tree resulting form the assembling.
+-BBtree.tre  Raw tree resulting form the assembling process.
 
 -BBtree2.tre  Binary tree with no zero or near-zero branch lengths.
 
