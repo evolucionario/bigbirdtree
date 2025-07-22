@@ -4,7 +4,7 @@ Code for assembling a time-scaled phylogeny of 9,072 bird species including rece
 
 ## Current Version: RAG genes backbone
 
-The current version uses a backbnone tree of all bird families inferred from an alignment of Recombination Activation Genes (RAG1 and RAG2). The backbone tree was time-scaled using 33 calibration nodes with calibration densities derived from the fossil record using the `CladDate` package in R (Claramunt 2022). Time-scaling was performed using `chronos` (Paradis 2013).
+The current version uses a backbnone tree of all bird families inferred from an alignment of Recombination Activation Genes (RAG1 and RAG2). The backbone tree was time-scaled using 33 calibration nodes with calibration densities derived from the fossil record using the `CladDate` package in R (Claramunt 2022). Time scaling was performed using `chronos` (Paradis 2013).
 
 Phylogenies of subclades were newly inferred from sequences deposited in GenBank using PyPHLAWD (Smith & Walker 2019) or obtained from previous studies as follow: Tinamidae (Almeida et al., 2022), Galliformes (Kimball et al., 2021), Charadriiformes (Černý & Natale, 2022), Coraciiformes (McCullough et al., 2019), Picidae (Shakya et al., 2017), Psittaciformes (Smith et al., 2023), Tyranni (Harvey et al., 2020), Melliphagidae (Marki et al., 2017), Corvides (McCullough et al., 2022) Sylvioidea (Cai et al., 2019), Alaudidae (Alström et al., 2023), Pycnonotidae (Shakya & Sheldon, 2017), Ploceidae (De Silva et al., 2019), Estrildidae (Olsson & Alström, 2020) and Emberizoidea (Barker et al., 2015). Subclades were then grafted into the the backbone tree after time scaling based on a shared node in the backbone tree.
 
