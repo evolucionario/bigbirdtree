@@ -8,7 +8,7 @@ The code in this repository is used to assemble a comprehensive time-tree of bir
 
 The current version uses a backbnone tree of all bird families inferred from an alignment of Recombination Activation Genes (RAG1 and RAG2). The backbone tree was time-scaled using 33 calibration nodes with calibration densities derived from the fossil record using the `CladeDate` package in R (Claramunt 2022). Time scaling was performed using `chronos` (Paradis 2013).
 
-Phylogenies of subclades were newly inferred from sequences deposited in GenBank using PyPHLAWD (Smith & Walker 2019) or obtained from previous studies as follow: Tinamidae (Almeida et al., 2022), Galliformes (Kimball et al., 2021), Charadriiformes (Černý & Natale, 2022), Coraciiformes (McCullough et al., 2019), Picidae (Shakya et al., 2017), Psittaciformes (Smith et al., 2023), Tyranni (Harvey et al., 2020), Melliphagidae (Marki et al., 2017), Corvides (McCullough et al., 2022) Sylvioidea (Cai et al., 2019), Alaudidae (Alström et al., 2023), Pycnonotidae (Shakya & Sheldon, 2017), Ploceidae (De Silva et al., 2019), Estrildidae (Olsson & Alström, 2020) and Emberizoidea (Barker et al., 2015). Subclades were then grafted into the the backbone tree after time scaling based on a shared node in the backbone tree. See Claramunt et al. ([2025](https://10.1016/j.cub.2025.07.004)) for further details.
+Phylogenies of subclades were newly inferred from sequences deposited in GenBank using PyPHLAWD (Smith & Walker 2019) or obtained from previous studies as follow: Tinamidae (Almeida et al., 2022), Galliformes (Kimball et al., 2021), Charadriiformes (Černý & Natale, 2022), Coraciiformes (McCullough et al., 2019), Picidae (Shakya et al., 2017), Psittaciformes (Smith et al., 2023), Tyranni (Harvey et al., 2020), Melliphagidae (Marki et al., 2017), Corvides (McCullough et al., 2022) Sylvioidea (Cai et al., 2019), Alaudidae (Alström et al., 2023), Pycnonotidae (Shakya & Sheldon, 2017), Ploceidae (De Silva et al., 2019), Estrildidae (Olsson & Alström, 2020) and Emberizoidea (Barker et al., 2015). Subclades were then grafted into the the backbone tree after time scaling based on a shared node in the backbone tree. See [Claramunt et al. 2025](https://10.1016/j.cub.2025.07.004) for further details.
 
 Current versions of the tree:
 
@@ -21,7 +21,7 @@ Current versions of the tree:
 -BBtreeC2022.tre Primary matching of the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
 
 If you use any of these trees in a pulication, please cite:
-- [Claramunt et al. 2025] (https://10.1016/j.cub.2025.07.004) Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias (2025) A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. *Current Biology*.
+- Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias (2025) A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. *Current Biology*. [[Claramunt et al. 2025](https://10.1016/j.cub.2025.07.004)](https://10.1016/j.cub.2025.07.004)
 
 
 
