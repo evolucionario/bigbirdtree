@@ -18,7 +18,7 @@ Current versions of the tree:
 
 -BBtreeC2022.tre Primary matching of the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
 
-If tyou use any of these trees in a pulication please cite:
+If you use any of these trees in a pulication, please cite:
 - Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias. 2025. A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. Current Biology. https://10.1016/j.cub.2025.07.004
 
 
