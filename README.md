@@ -14,9 +14,9 @@ Current versions of the tree:
 
 -BBtree2.tre  Binary tree with no zero or near-zero branch lengths.
 
--BBtree3.tre Cleaned taxonomy for typos and outdated names with help from the Hosner et al. (2022).
+-BBtree3.tre Cleaned taxonomy for typos and outdated names with help from the Hosner et al. (2022) database.
 
--BBtreeC2022.tre Crude attemept at matching the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
+-BBtreeC2022.tre Primary matching of the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
 
 To download a tree from GitHub directly into R:
 
