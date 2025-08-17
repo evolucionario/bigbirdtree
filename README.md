@@ -30,13 +30,13 @@ This code shows an example of how to directly import a tree into R:
 ```
 library(ape)
 
-root.directory <- "https://raw.githubusercontent.com/evolucionario/BigBirdTree/refs/heads/main/"
+github.directory <- "https://raw.githubusercontent.com/evolucionario/BigBirdTree/refs/heads/main/"
 
 stage <- "RAGBackbone/"
 
 tree <- "BBtree2.tre"
 
-url <- paste0(root.directory, stage, tree)
+url <- paste0(github.directory, stage, tree)
 
 BBtree2 <- read.tree(url)
 ```
