@@ -21,7 +21,7 @@ Current versions of the tree:
 -BBtreeC2022.tre Primary matching of the Clements/eBird 2022 taxonomy using Hosner et al. (2022).
 
 If you use any of these trees in a pulication, please cite:
-- Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias. 2025. A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. Current Biology. https://10.1016/j.cub.2025.07.004
+- Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias (2025) A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. Current Biology. https://10.1016/j.cub.2025.07.004
 
 
 
@@ -53,7 +53,7 @@ BBtree2 <- read.tree(url)
 - Cai, T., Cibois, A., Alström, P., Moyle, R. G., Kennedy, J. D., Shao, S., Zhang, R., Irestedt, M., Ericson, P. G. P., Gelang, M., Qu, Y., Lei, F., & Fjeldså, J. (2019). Near-complete phylogeny and taxonomic revision of the world’s babblers (Aves: Passeriformes). Molecular Phylogenetics and Evolution, 130, 346–356. https://doi.org/10.1016/j.ympev.2018.10.010
 - Černý, D., & Natale, R. (2022). Comprehensive taxon sampling and vetted fossils help clarify the time tree of shorebirds (Aves, Charadriiformes). Molecular Phylogenetics and Evolution, 177, 107620. https://doi.org/10.1016/j.ympev.2022.107620
 - Claramunt, S. (2022). CladeDate: Calibration information generator for divergence time estimation. Methods in Ecology and Evolution, 13(11), 2331–2338. https://doi.org/10.1111/2041-210X.13977
-- Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias. 2025. A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. Current Biology. https://10.1016/j.cub.2025.07.004
+- Claramunt, S., C. Sheard, J. W. Brown, G. Cortés-Ramírez, J. Cracraft, M. Su, B. C. Weeks & J. A. Tobias (2025) A new time-tree of birds reveals the interplay between dispersal, geographic range size, and diversification. Current Biology. https://10.1016/j.cub.2025.07.004
 - De Silva, T. N., Peterson, A. T., & Perktas, U. (2019). An extensive molecular phylogeny of weaverbirds (Aves: Ploceidae) unveils broad nonmonophyly of traditional genera and new relationships. The Auk, 136(3), ukz041. https://doi.org/10.1093/auk/ukz041
 - Harvey, M. G., Bravo, G. A., Claramunt, S., Cuervo, A. M., Derryberry, G. E., Battilana, J., Seeholzer, G. F., McKay, J. S., O’Meara, B. C., Faircloth, B. C., Edwards, S. V., Pérez-Emán, J., Moyle, R. G., Sheldon, F. H., Aleixo, A., Smith, B. T., Chesser, R. T., Silveira, L. F., Cracraft, J., … Derryberry, E. P. (2020). The evolution of a tropical biodiversity hotspot. Science, 370(6522), 1343–1348. https://doi.org/10.1126/science.aaz6970
 - Hosner, P. A., Zhao, M., Kimball, R. T., Braun, E. L., & Burleigh, J. G. (2022). Updating splits, lumps, and shuffles: Reconciling GenBank names with standardized avian taxonomies. Ornithology, 139(4), ukac045. https://doi.org/10.1093/ornithology/ukac045
