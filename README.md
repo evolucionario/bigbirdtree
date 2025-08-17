@@ -2,6 +2,8 @@
 
 The code in this repository is used to assemble a comprehensive time-tree of birds inclusing most extant species and several extinc species. The strategy is to build a time-scaled "backbone" tree using maximum likelihood time-tree estimation methods and calibration densities derived from the fossil record using the `CladeDate` package in R (Claramunt 2022). The tree is then completed using subclade phylogenies from the literaure or newly inferred from sequence data in GenBank, which are time-scaled or re-scaled based on shared nodes with the backnone tree, and then grafted into the backnone tree. See Claramunt et al. (2025) for further details.
 
+<img src="images/TreeAssembly.png" alt="Bird tree" width="300"/>
+
 ## Current Version: RAG genes backbone
 
 The current version uses a backbnone tree of all bird families inferred from an alignment of Recombination Activation Genes (RAG1 and RAG2). The backbone tree was time-scaled using 33 calibration nodes with calibration densities derived from the fossil record using the `CladeDate` package in R (Claramunt 2022). Time scaling was performed using `chronos` (Paradis 2013).
