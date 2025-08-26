@@ -12,7 +12,7 @@ Phylogenies of subclades were newly inferred from sequences deposited in GenBank
 
 Current versions of the tree:
 
--BBtree.tre  Raw tree resulting form the assembling process.
+-BBtree.tre  Raw tree resulting form the assembly process.
 
 -BBtree2.tre  Binary tree with no zero or near-zero branch lengths.
 
